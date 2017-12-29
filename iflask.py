@@ -1,12 +1,22 @@
-from flask import Flask
+from flask import Flask, render_template
+from flask_bootstrap import Bootstrap
+from flask_script import Manager
+
 
 app = Flask(__name__)
+bootstrap = Bootstrap(app)
+manager = Manager(app)
 
 
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
+def index():
+    return render_template('index.html')
+
+
+@app.route('/user/<name>')
+def user(name):
+    return "hello %s" % name
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

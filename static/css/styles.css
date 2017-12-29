@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    /*padding-bottom: 50px;*/
+}
+
+.jumbotron#index-body {
+    /*height: 100%;*/
+    margin-bottom: 0px;
+}
+
+.img-responsive#index-photo {
+    max-width: 225px;
+}
+
+#research, #coding {
+    margin-top: 10px;
+}
+
