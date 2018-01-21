@@ -1,14 +1,22 @@
-/*html, body {*/
-    /*height: 100%;*/
-/*}*/
-
 body {
     padding-top: 50px;
     /*padding-bottom: 50px;*/
 }
+
+/*html, body {*/
+/*height: 100%;*/
+/*}*/
 
 /*.jumbotron#index-body {*/
     /*!*height: 100%;*!*/
     /*margin-bottom: 0px;*/
 /*}*/
 
+.profile-thumbnail {
+    position: absolute;
+}
+
+.profile-header {
+    min-height: 260px;
+    margin-left: 280px;
+}
