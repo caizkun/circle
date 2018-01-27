@@ -16,6 +16,7 @@ class Config:
     APP_MAIL_SUBJECT_PREFIX = '[iflask]'
     APP_MAIL_SENDER = 'iflask admin <iflask@gmail.com>'
     APP_ADMIN = os.environ.get('APP_ADMIN')
+    APP_POSTS_PER_PAGE = 20
 
     @staticmethod
     def init_app(app):
