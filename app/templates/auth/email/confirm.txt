@@ -1,6 +1,6 @@
 Dear {{ user.username }},
 
-Welcome to iflask!
+Welcome to Circle!
 
 To confirm your account, please click on the following link:
 
@@ -8,7 +8,7 @@ To confirm your account, please click on the following link:
 
 Sincerely,
 
-The iflask Team
+The Circle Team
 
 
 Note: replies to this email address are not monitored.

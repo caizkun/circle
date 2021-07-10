@@ -4,6 +4,7 @@ import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'meant to be a secret'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
@@ -13,8 +14,8 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    APP_MAIL_SUBJECT_PREFIX = '[iflask]'
-    APP_MAIL_SENDER = 'iflask admin <iflask@gmail.com>'
+    APP_MAIL_SUBJECT_PREFIX = '[circle]'
+    APP_MAIL_SENDER = 'circle admin <circle@gmail.com>'
     APP_ADMIN = os.environ.get('APP_ADMIN')
     APP_POSTS_PER_PAGE = 20
 
